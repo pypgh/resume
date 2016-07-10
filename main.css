@@ -1,0 +1,53 @@
+h1{
+font-size: 32px;
+font-family: 'Lobster', cursive;
+font-weight: 400;
+color: #87CEFA;
+text-align: center;
+}
+h2{
+font-size: 20px;
+font-family: 'Lato', sans-serif;
+color: #87CEFA;
+text-align: center;
+
+}
+.menu{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #87CEFA;
+}
+#button1{
+  text-decoration: none;
+   color: #87CEFA;
+}
+#button2{
+  text-decoration: none;
+   color: #87CEFA;
+}
+#button3{
+  text-decoration: none;
+   color: #87CEFA;
+}
+#resume{
+  text-decoration: none;
+   color: #87CEFA;
+}
+.body_text{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+}
+.body_text_left{
+  display: inline-block;
+  text-align: left;
+}
+html { 
+  background: url("http://i.imgur.com/TTaslCR.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
