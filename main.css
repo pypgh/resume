@@ -24,25 +24,48 @@ text-align: center;
   color: #87CEFA;
 }
 #button1{
-  text-decoration: none;
-   color: #87CEFA;
+ text-decoration: none;
+  color:  	#87CEFA;
 }
+#button1:hover{
+ text-decoration: underline;
+ color: #87CEFA;
+}
+
 #button2{
-  text-decoration: none;
-   color: #87CEFA;
+ text-decoration: none;
+  color: #87CEFA;
 }
+#button2:hover{
+ text-decoration: underline;
+ color: #87CEFA;
+ 
+}
+
 #button3{
-  text-decoration: none;
-   color: #87CEFA;
+ text-decoration: none;
+  color: #87CEFA;
+}
+#button3:hover{
+ text-decoration: underline;
+ color: #87CEFA;
 }
 #button4{
-  text-decoration: none;
-   color: #87CEFA;
+ text-decoration: none;
+  color: #87CEFA;
+}
+#button4:hover{
+ text-decoration: underline;
+ color: #87CEFA;
 }
 
 #button5{
  text-decoration: none;
   color: #87CEFA;
+}
+#button5:hover{
+ text-decoration: underline;
+ color: #87CEFA;
 }
 #resume{
   text-decoration: none;
