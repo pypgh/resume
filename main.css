@@ -1,31 +1,82 @@
 #title{
-font-size: 32px;
-font-family: 'Lobster', cursive;
-font-weight: 400;
-color: #87CEFA;
-text-align: center;
-text-decoration: none;
+ font-size: 400%;
+ font-family: 'Lobster', cursive;
+ font-weight: 400;
+ color: #87CEFA;
+ text-align: center;
+  text-decoration: none;
+ 
 }
 #title:hover{
  color: #CEEBFD;
 }
-.name{
-  text-align: center;
-  text-decoration: none;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  z-index: 10;
+   background:rgba(0,0,0,1);
+  -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
 }
-h2{
-font-size: 30px;
-font-family: 'Lato', sans-serif;
-font-weight: 900;
-color: #87CEFA;
-text-align: center;
 
+.content {
+  margin-top: 155px;
+}
+
+.name{
+ text-align: center;
+ text-decoration: none;
+}
+
+h2{
+ font-size: 270%;
+ font-family: 'Lato', sans-serif;
+ color: #87CEFA;
+ text-align: center;
+font-weight: 900;
+}
+
+h3{
+ font-size: 270%;
+ font-family: 'Lato', sans-serif;
+ color: #87CEFA;
+ text-align: center;
+font-weight: 900;
+}
+h4{
+  font-size: 270%;
+ font-family: 'Lato', sans-serif;
+ color: #87CEFA;
+ text-align: center;
+font-weight: 900;
+}
+h5{
+font-size: 270%;
+font-family: 'Lato', sans-serif;
+color: #87CEFA;
+font-weight: 900;
+text-align: center;
+}
+h6{
+font-size: 270%;
+font-family: 'Lato', sans-serif;
+color: #87CEFA;
+font-weight: 900;
+text-align: center;
 }
 .menu{
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  color: #87CEFA;
+ text-align:center;
+ font-family: 'Lato', sans-serif;
+ color: #87CEFA;
+ font-weight: 900;
+ text-decoration: none;
+ font-size: 150%
 }
+
 #button1{
  text-decoration: none;
   color:  	#87CEFA;
@@ -70,25 +121,89 @@ text-align: center;
  text-decoration: underline;
  color: #87CEFA;
 }
-#resume{
-  text-decoration: none;
-   color: #87CEFA;
-}
+
 .body_text{
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  font-style: italic;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 150%;
+  font-weight: 300;
   color: white;
 }
+
 .body_text_left{
   display: inline-block;
   text-align: left;
 }
+
+
+.body_text_left p span{
+  background:rgba(255,255,255,0.3);
+ margin: 2px;
+}
+
+.body_text_left ul li span{
+  background:rgba(255,255,255,0.3);
+}
+
+
+#resume{
+ font-size: 150%;
+  text-decoration: none;
+   color: #87CEFA;
+}
+#linkedin{
+  font-size: 150%;
+  text-decoration: none;
+   color: #87CEFA;
+}
+#twitter{
+  font-size: 150%;
+  text-decoration: none;
+   color: #87CEFA;
+}
+#courses{
+  font-size: 150%;
+  text-decoration: none;
+   color: #87CEFA;  
+}
+#resume:hover{
+ text-decoration: underline;
+ color: #87CEFA;
+}
+#linkedin:hover{
+ text-decoration: underline;
+ color: #87CEFA;
+}
+#twitter:hover{
+ text-decoration: underline;
+ color: #87CEFA;
+}
+#courses:hover{
+ text-decoration: underline;
+ color: #87CEFA;
+}
+#photos{
+  font-size: 150%;
+  text-decoration: none;
+   color: #87CEFA;  
+}
+#photos:hover{
+ text-decoration: underline;
+ color: #87CEFA;
+}
+
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 html { 
-  background: url("http://i.imgur.com/TTaslCR.jpg") no-repeat center center fixed; 
+  background: url("http://i.imgur.com/ZVuUuUy.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+     background-attachment: fixed;
 }
+
