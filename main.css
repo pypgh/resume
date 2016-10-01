@@ -40,34 +40,7 @@ h2{
 font-weight: 900;
 }
 
-h3{
- font-size: 270%;
- font-family: 'Lato', sans-serif;
- color: #87CEFA;
- text-align: center;
-font-weight: 900;
-}
-h4{
-  font-size: 270%;
- font-family: 'Lato', sans-serif;
- color: #87CEFA;
- text-align: center;
-font-weight: 900;
-}
-h5{
-font-size: 270%;
-font-family: 'Lato', sans-serif;
-color: #87CEFA;
-font-weight: 900;
-text-align: center;
-}
-h6{
-font-size: 270%;
-font-family: 'Lato', sans-serif;
-color: #87CEFA;
-font-weight: 900;
-text-align: center;
-}
+
 .menu{
  text-align:center;
  font-family: 'Lato', sans-serif;
