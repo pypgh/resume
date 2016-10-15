@@ -18,7 +18,7 @@
   height: 95px;
   z-index: 10;
  
-   background: url("http://i.imgur.com/ZVuUuUy.jpg") no-repeat center center fixed; 
+   background: url("la.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -179,7 +179,7 @@ font-weight: 900;
 }
 
 html { 
-  background: url("http://i.imgur.com/ZVuUuUy.jpg") no-repeat center center fixed; 
+  background: url("la.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
